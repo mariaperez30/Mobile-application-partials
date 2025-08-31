@@ -1,13 +1,25 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>register</ion-title>
-  </ion-toolbar>
-</ion-header>
+<ion-content >
+  <div class="register-container">
+  <img src="../../../assets/icon/user-plus (2).pngñ" alt="Logo" class="register-logo" />
+    <p class="register-title">Register</p>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">register</ion-title>
-    </ion-toolbar>
-  </ion-header>
-</ion-content>
+     <div class="row">
+      <ion-item class="half">
+        <ion-input label="Name" type="text" placeholder="Maria"></ion-input>
+      </ion-item>
+
+      <ion-item class="half">
+        <ion-input label="Last name" type="text" placeholder="Perez"></ion-input>
+      </ion-item>
+    </div>
+
+    <ion-item>
+      <ion-input label="Email" type="email" placeholder="name@gmail.com"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-input label="Password" type="password" placeholder="********"></ion-input>
+    </ion-item>
+
+  </div>
+  </ion-content>
